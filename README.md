@@ -39,6 +39,12 @@ And this page also support searching. Search result will highlight what user sea
 
 <img src="https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/.github/Assets/SearchResult.png" width='100%' height='100%'/>
 
+## MenuBarExtra
+
+MenuBarExtra will always appear on top right of mac's menu bar unless "Mac Battery Inspector" is been quited. 
+
+<img src="https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/.github/Assets/MenuBarExtra.png" width='100%' height='100%'/>
+
 ## License：MIT
 
 This package is [MIT licensed](https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/LICENSE).
