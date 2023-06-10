@@ -36,6 +36,8 @@ When mac is start/stop charging, HighLight view will show/hide adapter detail wi
 
 A view includes 100 blocks to represent current capacity.
 
+<img src="https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/.github/Assets/ScreenSaver.png" width='100%' height='100%'/>
+
 ## Row Data
 
 This view shows all data from `IOPSCopyPowerSourcesInfo` and `AppleSmartBattery` without doing any transformation.
