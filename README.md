@@ -11,6 +11,13 @@ A macOS app develop with SwiftUI in MVVM that could inspect many mac's battery i
 
 ## Overview
 
+1. [**HighLight**](https://github.com/5j54d93/Mac-Battery-Inspector#highlight)
+2. [**Screen Saver**](https://github.com/5j54d93/Mac-Battery-Inspector#screen-saver)
+3. [**Row Data**](https://github.com/5j54d93/Mac-Battery-Inspector#row-data)
+4. [**MenuBarExtra**](https://github.com/5j54d93/Mac-Battery-Inspector#menubarextra)
+5. [**Dark Mode**](https://github.com/5j54d93/Mac-Battery-Inspector#dark-mode)
+6. [**License**](https://github.com/5j54d93/Mac-Battery-Inspector#licensemit)
+
 ## HighLight
 
 Main View highlights some important information of mac's battery. Including：
