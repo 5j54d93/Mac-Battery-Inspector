@@ -49,6 +49,8 @@ MenuBarExtra will always appear on top right of mac's menu bar unless "Mac Batte
 
 "Mac Battery Inspector" also support dark mode！User could select mode on top right of tool bar for "Mac Battery Inspector" to follow system's preference or user's preference.
 
+<img src="https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/.github/Assets/DarkMode.png" width='100%' height='100%'/>
+
 ## License：MIT
 
 This package is [MIT licensed](https://github.com/5j54d93/Mac-Battery-Inspector/blob/main/LICENSE).
