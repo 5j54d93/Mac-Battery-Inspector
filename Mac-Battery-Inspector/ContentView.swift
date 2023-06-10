@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var appleSmartBatteryHelper: AppleSmartBatteryHelper
+    @ObservedObject var powerSourcesHelper: PowerSourcesHelper
+    
+    @State private var selectionValue = SidebarType.HighLight
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationSplitView {
+            SidebarView(selectionValue: $selectionValue)
+                .frame(width: 155)
+        } detail: {
+            switch selectionValue {
+            case .HighLight:
+                HighlightView(appleSmartBatteryHelper: appleSmartBatteryHelper, powerSourcesHelper: powerSourcesHelper)
+            case .ScreenSaver:
+                ScreenSaverView(appleSmartBatteryHelper: appleSmartBatteryHelper)
+            case .RowData:
+                RowDataView(appleSmartBatteryHelper: appleSmartBatteryHelper, powerSourcesHelper: powerSourcesHelper)
+            }
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .toolbar(id: "Toolbar") {
+            ToolbarView()
+        }
     }
 }

@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2730904B2A1706EA000635DB /* SidebarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730904A2A1706EA000635DB /* SidebarType.swift */; };
+		2730904F2A171DF6000635DB /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730904E2A171DF6000635DB /* ToolbarView.swift */; };
+		274F16842A18B73F00245222 /* MenuCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F16832A18B73F00245222 /* MenuCommand.swift */; };
+		274F16862A1A506100245222 /* MenuBarExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F16852A1A506100245222 /* MenuBarExtraView.swift */; };
+		274F16892A1A654E00245222 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F16882A1A654E00245222 /* SettingsView.swift */; };
+		274F168E2A1AF67B00245222 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F168D2A1AF67B00245222 /* AboutView.swift */; };
 		2777753A2A15FE4F00D39570 /* Mac_Battery_InspectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277775392A15FE4F00D39570 /* Mac_Battery_InspectorApp.swift */; };
 		2777753C2A15FE4F00D39570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777753B2A15FE4F00D39570 /* ContentView.swift */; };
 		2777753E2A15FE5000D39570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2777753D2A15FE5000D39570 /* Assets.xcassets */; };
 		277775412A15FE5000D39570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277775402A15FE5000D39570 /* Preview Assets.xcassets */; };
+		2777754C2A160FDC00D39570 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777754B2A160FDC00D39570 /* SidebarView.swift */; };
+		27AC55462A174FC600A31C08 /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC55452A174FC600A31C08 /* HighlightView.swift */; };
+		27AC55482A1754F600A31C08 /* AppleSmartBatteryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC55472A1754F600A31C08 /* AppleSmartBatteryHelper.swift */; };
+		27AC554E2A17714700A31C08 /* PowerSourcesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC554D2A17714700A31C08 /* PowerSourcesHelper.swift */; };
+		27AC55512A1772B300A31C08 /* RowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC55502A1772B300A31C08 /* RowDataView.swift */; };
+		27AC55532A17C09400A31C08 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AC55522A17C09400A31C08 /* Colors.xcassets */; };
+		27AC55562A17C38D00A31C08 /* AppleSmartBatteryKeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC55552A17C38D00A31C08 /* AppleSmartBatteryKeyType.swift */; };
+		27AC55582A17D65C00A31C08 /* ScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC55572A17D65C00A31C08 /* ScreenSaverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		277775362A15FE4F00D39570 /* Mac-Battery-Inspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-Battery-Inspector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2730904A2A1706EA000635DB /* SidebarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarType.swift; sourceTree = "<group>"; };
+		2730904E2A171DF6000635DB /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		274F16832A18B73F00245222 /* MenuCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCommand.swift; sourceTree = "<group>"; };
+		274F16852A1A506100245222 /* MenuBarExtraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraView.swift; sourceTree = "<group>"; };
+		274F16882A1A654E00245222 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		274F168D2A1AF67B00245222 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		277775362A15FE4F00D39570 /* Mac Battery Inspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Battery Inspector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277775392A15FE4F00D39570 /* Mac_Battery_InspectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Battery_InspectorApp.swift; sourceTree = "<group>"; };
 		2777753B2A15FE4F00D39570 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2777753D2A15FE5000D39570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277775402A15FE5000D39570 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		277775422A15FE5000D39570 /* Mac_Battery_Inspector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_Battery_Inspector.entitlements; sourceTree = "<group>"; };
+		2777754B2A160FDC00D39570 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		27AC55452A174FC600A31C08 /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		27AC55472A1754F600A31C08 /* AppleSmartBatteryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSmartBatteryHelper.swift; sourceTree = "<group>"; };
+		27AC554D2A17714700A31C08 /* PowerSourcesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerSourcesHelper.swift; sourceTree = "<group>"; };
+		27AC55502A1772B300A31C08 /* RowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDataView.swift; sourceTree = "<group>"; };
+		27AC55522A17C09400A31C08 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		27AC55552A17C38D00A31C08 /* AppleSmartBatteryKeyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSmartBatteryKeyType.swift; sourceTree = "<group>"; };
+		27AC55572A17D65C00A31C08 /* ScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273090472A1705A4000635DB /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				273090492A1706C9000635DB /* Model */,
+				273090482A170658000635DB /* View */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		273090482A170658000635DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2777754B2A160FDC00D39570 /* SidebarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		273090492A1706C9000635DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2730904A2A1706EA000635DB /* SidebarType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2730904C2A171DCF000635DB /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2730904E2A171DF6000635DB /* ToolbarView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		274F16822A18B71F00245222 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				274F16832A18B73F00245222 /* MenuCommand.swift */,
+				274F16852A1A506100245222 /* MenuBarExtraView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		274F16872A1A653900245222 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				274F16882A1A654E00245222 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		274F168C2A1AF66800245222 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				274F168D2A1AF67B00245222 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		2777752D2A15FE4F00D39570 = {
 			isa = PBXGroup;
 			children = (
@@ -44,7 +130,7 @@
 		277775372A15FE4F00D39570 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				277775362A15FE4F00D39570 /* Mac-Battery-Inspector.app */,
+				277775362A15FE4F00D39570 /* Mac Battery Inspector.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +140,17 @@
 			children = (
 				277775392A15FE4F00D39570 /* Mac_Battery_InspectorApp.swift */,
 				2777753B2A15FE4F00D39570 /* ContentView.swift */,
+				273090472A1705A4000635DB /* Sidebar */,
+				2730904C2A171DCF000635DB /* Toolbar */,
+				274F16822A18B71F00245222 /* Menu */,
+				274F168C2A1AF66800245222 /* About */,
+				274F16872A1A653900245222 /* Settings */,
+				27AC55442A174FA800A31C08 /* Highlight */,
+				27AC55492A17708A00A31C08 /* Screen Saver */,
+				27AC554A2A17709C00A31C08 /* Row Data */,
+				27AC554F2A17716A00A31C08 /* Helper */,
 				2777753D2A15FE5000D39570 /* Assets.xcassets */,
+				27AC55522A17C09400A31C08 /* Colors.xcassets */,
 				277775422A15FE5000D39570 /* Mac_Battery_Inspector.entitlements */,
 				2777753F2A15FE5000D39570 /* Preview Content */,
 			);
@@ -69,12 +165,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		27AC55442A174FA800A31C08 /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				27AC55452A174FC600A31C08 /* HighlightView.swift */,
+			);
+			path = Highlight;
+			sourceTree = "<group>";
+		};
+		27AC55492A17708A00A31C08 /* Screen Saver */ = {
+			isa = PBXGroup;
+			children = (
+				27AC55572A17D65C00A31C08 /* ScreenSaverView.swift */,
+			);
+			path = "Screen Saver";
+			sourceTree = "<group>";
+		};
+		27AC554A2A17709C00A31C08 /* Row Data */ = {
+			isa = PBXGroup;
+			children = (
+				27AC55502A1772B300A31C08 /* RowDataView.swift */,
+			);
+			path = "Row Data";
+			sourceTree = "<group>";
+		};
+		27AC554F2A17716A00A31C08 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27AC55542A17C37500A31C08 /* Model */,
+				27AC55472A1754F600A31C08 /* AppleSmartBatteryHelper.swift */,
+				27AC554D2A17714700A31C08 /* PowerSourcesHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		27AC55542A17C37500A31C08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27AC55552A17C38D00A31C08 /* AppleSmartBatteryKeyType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		277775352A15FE4F00D39570 /* Mac-Battery-Inspector */ = {
+		277775352A15FE4F00D39570 /* Mac Battery Inspector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 277775452A15FE5000D39570 /* Build configuration list for PBXNativeTarget "Mac-Battery-Inspector" */;
+			buildConfigurationList = 277775452A15FE5000D39570 /* Build configuration list for PBXNativeTarget "Mac Battery Inspector" */;
 			buildPhases = (
 				277775322A15FE4F00D39570 /* Sources */,
 				277775332A15FE4F00D39570 /* Frameworks */,
@@ -84,9 +222,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mac-Battery-Inspector";
+			name = "Mac Battery Inspector";
 			productName = "Mac-Battery-Inspector";
-			productReference = 277775362A15FE4F00D39570 /* Mac-Battery-Inspector.app */;
+			productReference = 277775362A15FE4F00D39570 /* Mac Battery Inspector.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +255,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				277775352A15FE4F00D39570 /* Mac-Battery-Inspector */,
+				277775352A15FE4F00D39570 /* Mac Battery Inspector */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC55532A17C09400A31C08 /* Colors.xcassets in Resources */,
 				277775412A15FE5000D39570 /* Preview Assets.xcassets in Resources */,
 				2777753E2A15FE5000D39570 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +278,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274F16842A18B73F00245222 /* MenuCommand.swift in Sources */,
+				27AC55512A1772B300A31C08 /* RowDataView.swift in Sources */,
+				27AC554E2A17714700A31C08 /* PowerSourcesHelper.swift in Sources */,
 				2777753C2A15FE4F00D39570 /* ContentView.swift in Sources */,
+				274F168E2A1AF67B00245222 /* AboutView.swift in Sources */,
+				274F16862A1A506100245222 /* MenuBarExtraView.swift in Sources */,
+				2730904F2A171DF6000635DB /* ToolbarView.swift in Sources */,
+				27AC55562A17C38D00A31C08 /* AppleSmartBatteryKeyType.swift in Sources */,
+				274F16892A1A654E00245222 /* SettingsView.swift in Sources */,
+				27AC55482A1754F600A31C08 /* AppleSmartBatteryHelper.swift in Sources */,
 				2777753A2A15FE4F00D39570 /* Mac_Battery_InspectorApp.swift in Sources */,
+				27AC55582A17D65C00A31C08 /* ScreenSaverView.swift in Sources */,
+				27AC55462A174FC600A31C08 /* HighlightView.swift in Sources */,
+				2777754C2A160FDC00D39570 /* SidebarView.swift in Sources */,
+				2730904B2A1706EA000635DB /* SidebarType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,16 +422,17 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mac-Battery-Inspector/Preview Content\"";
-				DEVELOPMENT_TEAM = Q5FUZBD4J5;
+				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Battery Inspector";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ricky.Mac-Battery-Inspector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -297,16 +450,17 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mac-Battery-Inspector/Preview Content\"";
-				DEVELOPMENT_TEAM = Q5FUZBD4J5;
+				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Battery Inspector";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ricky.Mac-Battery-Inspector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -326,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		277775452A15FE5000D39570 /* Build configuration list for PBXNativeTarget "Mac-Battery-Inspector" */ = {
+		277775452A15FE5000D39570 /* Build configuration list for PBXNativeTarget "Mac Battery Inspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				277775462A15FE5000D39570 /* Debug */,
